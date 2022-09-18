@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+	  <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">CodingSchool Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Enter Your First Name: <input type="text" id="name" required placeholder="Enter your first and last name..."/></label>
+        <label id="email-label">Enter Your Email: <input type="email" id="email" required placeholder="Enter your email..."/></label>
+        <label id="number-label">Select your age (optionnal): <input type="number" id="number" min="13" max="120" placeholder="Select your age..."/>
+			  </label>
+      </fieldset>
+      <fieldset> 
+        <label>What is your favorite feature of the programs
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Forums</option>
+            <option value="4">Open Source</option>
+            <option value="5">Others</option>
+          </select>
+        </label>
+        <label>Any comments or suggestions:
+          <textarea name="bio" rows="3" cols="30" placeholder="Type your comment here..."></textarea>
+      </fieldset>
+      <fieldset>
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <label>
+          <input type="checkbox" name="checkbox" class="inline" value="1">Front-end Projects
+        </label>
+        <label>
+          <input type="checkbox" name="checkbox" class="inline" value="2">Back-end Projects
+        </label>
+        <label>
+          <input type="checkbox" name="checkbox" class="inline" value="3">Data Visualization
+        </label>
+      </fieldset>
+      <fieldset>
+        <p>How would do you find the curriculum so far?</p>
+        <label><input type="radio" name="account-type" class="inline" value="1"/> Very Good</label>
+        <label><input type="radio" name="account-type" class="inline" value="2"/> Good</label>
+        <label><input type="radio" name="account-type" class="inline" value="3"/> Neutral</label>
+        <label><input type="radio" name="account-type" class="inline" value="4"/> Bad</label>
+        <lable>
+      </fieldset>
+        <input type="submit" value="Submit" id="submit"/>
+  </form>
+  </body>
+</html>

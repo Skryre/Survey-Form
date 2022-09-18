@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(rgba(30, 81, 123, 0.4), rgba(30, 81, 123, 0.4)), url(https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  
+  #title {
+    color: white;
+    opacity: 95%;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  #description {
+    color: white;
+    opacity: 95%;
+    text-align: center;
+    font-family: serif;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: -10;
+  }
+  
+  form {
+    background-color: rgba(32, 64, 128, 0.8);
+    color: white;
+    width: 60vw;
+      max-width: 500px;
+      min-width: 300px;
+      margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: Tahoma;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 10px;
+  }
+  
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+      width: 100%;
+    min-height: 2em;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 2px;
+    vertical-align: middle;
+    position: relative;
+  }
+    
+  label {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(90, 93, 145);
+    border-color: white;
+    min-width: 300px;
+    color: white;
+  }

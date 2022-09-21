@@ -26,9 +26,9 @@ body{
     background-color: rgba(32, 64, 128, 0.8);
     color: white;
     width: 60vw;
-      max-width: 500px;
-      min-width: 300px;
-      margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
     padding-bottom: 10px;
     padding-top: 10px;
     font-family: Tahoma;
